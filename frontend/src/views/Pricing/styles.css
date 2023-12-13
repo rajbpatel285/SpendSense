@@ -1,0 +1,38 @@
+.card-free {
+  transition: transform 0.15s ease-in-out;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to bottom, #000000, #343434);
+  color: white !important;
+  margin-bottom: 30px;
+}
+
+.card-pro {
+  transition: transform 0.15s ease-in-out;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to bottom, #3333cc, #5900b3);
+  color: white !important;
+  margin-bottom: 30px;
+}
+.card-free:hover {
+  transform: scale3d(1.05, 1.05, 1);
+}
+
+.card-pro:hover {
+  transform: scale3d(1.05, 1.05, 1);
+}
+
+.feature-spacing {
+  padding: 1%;
+}
+
+.pricing-button {
+  color: #ffffff !important;
+  border-color: #bfbfbf !important;
+  margin: 5% !important;
+}
+
+.pricing-button:hover {
+  border-color: #ffffff !important;
+}
